@@ -1,0 +1,10 @@
+## Crea o edita `config.toml`
+
+Dentro de este directorio `.streamlit`, crea (o edita si ya existe) un archivo llamado `config.toml` y añade el siguiente contenido:
+
+```toml
+[runner]
+pythonVersion = "3.10"
+```
+
+**¿Por qué `3.10`?** Python 3.10 es una de las versiones más estables y bien soportadas por TensorFlow (incluyendo las versiones 2.15.x y 2.16.x).
